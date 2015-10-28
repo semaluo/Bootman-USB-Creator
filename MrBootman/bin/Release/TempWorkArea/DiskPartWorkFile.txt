@@ -1,0 +1,14 @@
+select disk 1
+
+clean
+
+create part pri
+
+select part 1
+
+format fs=ntfs quick
+
+active
+
+assign letter=G
+
